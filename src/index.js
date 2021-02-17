@@ -233,7 +233,6 @@ class SuperTreeview extends Component {
                                           {printCheckbox(node, depth)}
                                           <label
                                               htmlFor={node.id}
-                                              title={nodeText}
                                               className="super-treeview-text"
                                           >
                                               {nodeText}
